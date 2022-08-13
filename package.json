@@ -29,9 +29,22 @@
     ]
   },
   "dependencies": {
+    "@types/react-helmet": "6.1.5",
+    "autoprefixer": "10.4.8",
+    "dotenv": "16.0.1",
     "gatsby": "4.19.2",
+    "gatsby-plugin-gatsby-cloud": "4.20.0",
+    "gatsby-plugin-image": "2.20.0",
+    "gatsby-plugin-postcss": "5.20.0",
+    "gatsby-plugin-sharp": "4.20.0",
+    "gatsby-source-strapi": "2.0.0-beta.0",
+    "gatsby-transformer-remark": "5.20.0",
+    "gatsby-transformer-sharp": "4.20.0",
+    "postcss": "8.4.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-helmet": "6.1.0",
+    "tailwindcss": "3.1.8",
     "tsconfig-paths-webpack-plugin": "3.5.2"
   },
   "devDependencies": {
