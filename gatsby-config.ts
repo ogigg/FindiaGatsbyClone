@@ -13,7 +13,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-strapi',
       options: {
-        apiURL: process.env.STRAPI_API_URL || 'http://localhost:1337',
+        apiURL: process.env.STRAPI_API_URL || 'http://localhost:8000',
         accessToken: process.env.STRAPI_TOKEN,
         collectionTypes: [
           {
@@ -60,6 +60,9 @@ const config: GatsbyConfig = {
           },
           {
             singularName: 'homepage',
+          },
+          {
+            singularName: 'top-menu',
           },
         ],
       },
