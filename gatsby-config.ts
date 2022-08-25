@@ -60,14 +60,6 @@ const config: GatsbyConfig = {
           },
           {
             singularName: 'homepage',
-            queryParams: {
-              populate: {
-                favicon: '*',
-                defaultSeo: {
-                  populate: '*',
-                },
-              },
-            },
           },
         ],
       },

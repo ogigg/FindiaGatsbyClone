@@ -11,3 +11,15 @@ body {
 .font-inter {
   font-family: inter, sans-serif;
 }
+
+.navbar-logo {
+  position: relative;
+  left: 0;
+  top: -134px;
+  background-color: #fff;
+  height: 191px;
+  width: 900px;
+  border-radius: 80px;
+  transform: rotate(-10deg);
+  max-width: calc(100vw - 10px);
+}
